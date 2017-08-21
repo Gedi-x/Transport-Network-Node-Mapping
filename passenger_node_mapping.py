@@ -53,3 +53,5 @@ def passenger_node_mapping(node,prestige_id,easting,northing,to_be_mapped_graph,
            
     return to_be_mapped_graph
 
+## example
+## passenger_node_mapping('walala',prestige_id=189765768,easting=529997,northing=181436,to_be_mapped_graph=street_bus, tree_graph=London_walk_simple,tree=tree)
