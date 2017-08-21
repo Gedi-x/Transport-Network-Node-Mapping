@@ -43,3 +43,6 @@ def graph_update(street_network,previous_graph,taget_transport_graph,mode,specif
                                 size=0.01
                 )
     return previous_graph
+
+## eample
+# graph_update(street_network=London_walk_simple,previous_graph=street_bus,taget_transport_graph=BN,mode='bus',specific_mode='stop')
